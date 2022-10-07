@@ -29,8 +29,9 @@
 		<aside>
 			<ul class="menu">
 				<li><a href="?hal=dashboard" class="aktif">Dashboard</a></li>
-				<li><a href="?hal=pegawai">Costumer Service</a></li>
-				<li><a href="?hal=jabatan">Teller</a></li>
+				<li><a href="?hal=costumer-servive">Costumer Service</a></li>
+				<li><a href="?hal=teller">Teller</a></li>
+				<li><a href="?hal=histori-transaksi">Histori Transaksi</a></li>
 				<li><a href="logout.php">Keluar</a></li>
 			</ul>
 		</aside>
