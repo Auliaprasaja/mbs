@@ -3,7 +3,7 @@
 ?>
 
 <h2 class="judul">Data Nasabah</h2>
-<a class="tombol" href="?hal=pegawai-tambah">tambah</a>
+<a class="tombol" href="?hal=pegawai_tambah">Tambah</a>
 
 <table class="table">
 	<thead>
@@ -19,7 +19,7 @@
 	</thead>
 	<tbody>
 		<?php
-		$query = mysqli_query($con,"SELECT * FROM pegawai LEFT JOIN jns_tab ON pegawai . id_tab=jns_tab . id_tab ORDER BY pegawai . id_pegawai DESC");
+		$query = mysqli_query($con,"SELECT * FROM apg LEFT JOIN jns_tab ON apg . id_tab=jns_tab . id_tab ORDER BY apg . id_nasabh DESC");
 		$no = 0;
 		while ($data = mysqli_fetch_array($query)) {
 			$no++;
