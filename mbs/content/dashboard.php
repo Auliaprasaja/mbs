@@ -2,4 +2,4 @@
 if(!defined('INDEX')) die("");
 ?>
 
-<h2>Selamat Datang di Aplikasi MBS Subulul Huda</h2>
+<h1>Selamat Datang di Aplikasi MBS Subulul Huda</h1>

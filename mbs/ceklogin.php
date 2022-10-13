@@ -16,7 +16,7 @@ if ($jml>0) {
 	header('location: index.php');
 }else{
 	echo"<p align='center'>Login Gagal!</p>";
-	echo "<meta http-equiv='refresh' content='1; url=login.php'>";
+	echo"<meta http-equiv='refresh' content='2;url=login.php'>";
 }
  ?>
 
