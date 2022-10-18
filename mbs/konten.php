@@ -6,11 +6,28 @@ $halaman = array("dashboard","nasabah","nasabah_tambah","nasabah_insert","nasaba
 if(isset($_GET['hal'])) $hal = $_GET['hal'];
 else $hal = "dashboard";
 
-	foreach($halaman as $h){
-	if($hal == $h){
-		include "content/$h.php";
-		break;
-		}
-	}
+include "content/$hal.php";
 
- ?>
+// if($hal == 'nasabah'){
+// 	include "content/nasabah.php";
+// }
+// elseif($hal == 'teller'){
+// 	include "content/tabungan.php";
+// }
+// else
+
+
+
+
+// foreach($halaman as $h){
+// 	// if($hal == $h){
+// 	// 	include "content/$h.php";
+// 	// 	break;
+// 	// }
+
+// 	var_dump($h);
+// }
+
+
+
+?>
